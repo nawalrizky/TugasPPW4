@@ -1,0 +1,136 @@
+:root {
+    --rblue : #03256c;
+    --pblue : #2541b2;
+    --gblue : #1768ac;
+    --aero : #06bee1;
+    --white : white;
+}
+
+.sectionone{
+    background: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url('https://images.unsplash.com/photo-1553570739-330b8db8a925?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+    
+}
+
+.container-fluid {
+    max-width: 65rem;
+    margin-top: 1rem;
+}
+
+.nav-item .nav-link {
+    color: white;
+    border-bottom: .25rem solid transparent;
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link:after{
+    color: white;
+    border-bottom-color: white ;
+}
+
+.text1 {
+    color: white;
+    font-size: 20px;
+}
+
+.text2 {
+    
+    margin-bottom:5rem;
+}
+
+.text3 {
+    font-size: 20px;
+}
+
+.tombol1 {
+    padding: 15px;
+    border-radius: 25px;
+    font-size: 15px;
+    color: white;
+    background-color: var(--pblue);
+    border-style: none;
+}
+
+.tombol1:after,
+.tombol1:hover {
+    background-color: var(--rblue);
+}
+
+.sectionthree {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.gambar1, .gambar2, .gambar3 {
+    background-size: cover;
+    height: 100vh;
+    
+    transition: background-size 0.2s;
+    transition-timing-function: cubic-bezier(.07,1.41,.82,1.41);
+    
+    cursor: pointer;
+    overflow: hidden;
+   
+  
+}
+
+.gambar1 {
+    background-image: linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)),url('https://images.unsplash.com/photo-1534962303837-2edd16492781?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8dHJhc2glMjBwb2xsdXRpb258ZW58MHwxfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+}
+
+.gambar2 {
+    background-image:linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url('gambar3.jpeg');
+}
+.gambar3 {
+    background-image:linear-gradient(rgba(0,0,0,0.30),rgba(0,0,0,0.30)), url('https://images.unsplash.com/photo-1639390325187-98c9534805e7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8b2NlYW4lMjB0cmFzaCUyMHBvbGx1dGlvbnxlbnwwfDF8MHx8&auto=format&fit=crop&w=800&q=60') ;
+}
+
+.gambar1:hover {
+    background-size: 40rem;
+}
+.gambar2:hover,
+.gambar3:hover {
+    background-size: 37rem;
+    
+}
+
+.photo{
+    color: white;
+    text-decoration: none;
+}
+
+.sectionfour {
+    margin-top: 7rem;
+}
+
+
+
+.text6 {
+    height: 50vh;
+}
+
+.project {
+     max-width: 35rem ;
+}
+
+.img1 {
+    background: url('https://images.unsplash.com/photo-1613792962823-946490e6fbd7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8cGxhc3RpYyUyMHdhc3RlfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+}
+.img2 {
+    background: url('https://designwanted.com/wp-content/uploads/2022/02/5-Precious-Plastic-Brick-wall-1-scaled-1-scaled.jpg');
+    background-size: cover;
+}
+.img3 {
+    background: url('https://images.unsplash.com/photo-1586193427383-0befdb47bc7b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZmlzaGluZyUyMG5ldHN8ZW58MHwwfDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+}
+.img4 {
+    background: url('https://images.unsplash.com/photo-1614847780743-f23203e89064?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZpc2hpbmclMjBuZXRzfGVufDB8MHwwfHw%3D&auto=format&fit=crop&w=800&q=60');
+    background-size: cover;
+}
+
